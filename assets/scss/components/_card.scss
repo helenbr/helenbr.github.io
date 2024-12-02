@@ -1,0 +1,23 @@
+.card {
+  margin-bottom: 30px;
+
+  .card-header {
+    background: transparent;
+    border: none;
+
+    &.has-icon {
+      i {
+        background: $white;
+        position: absolute;
+        top: -28px;
+        border: 7px solid white;
+        overflow: hidden !important;
+        font-size: 35px;
+      }
+    }
+  }
+  .card-body {
+    font-size: 14px;
+    color: $gray-600;
+  }
+}
